@@ -8,5 +8,9 @@ public class Developer extends Employee {
         super(name, nin, salary);
     }
 
+    public String carryOutRole(){
+        return "I am developing";
+    }
+
 
 }

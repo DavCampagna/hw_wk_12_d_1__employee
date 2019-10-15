@@ -13,5 +13,8 @@ public class Director extends Manager {
         return this.budget;
     }
 
+    public String carryOutRole(){
+        return "I am directing";
+    }
 
 }

@@ -15,4 +15,8 @@ public class Manager extends Employee {
         return this.deptName;
     }
 
+    public String carryOutRole(){
+        return "I am managing";
+    }
+
 }

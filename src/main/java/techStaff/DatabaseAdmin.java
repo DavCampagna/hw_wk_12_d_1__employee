@@ -7,4 +7,8 @@ public class DatabaseAdmin extends Employee {
         super(name, nin, salary);
     }
 
+    public String carryOutRole(){
+        return "I am working on the database";
+    }
+
 }
